@@ -4,13 +4,13 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* seção principal */
+
 .hero {
     padding: 60px 20px;
     background: linear-gradient(to right, #0f3d0f, #145214);
 }
 
-/* carrossel */
+
 .carousel-container {
     display: flex;
     justify-content: center;
@@ -27,7 +27,7 @@ body {
     border-radius: 10px;
 }
 
-/* cards */
+
 .card {
     background-color: #123d12;
     color: #ffffff;
@@ -39,7 +39,7 @@ body {
     transform: scale(1.03);
 }
 
-/* rodapé */
+
 footer {
     background-color: #111111;
 }
