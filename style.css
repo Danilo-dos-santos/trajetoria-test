@@ -1,0 +1,45 @@
+body {
+    background-color: #0b1d0b;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* seção principal */
+.hero {
+    padding: 60px 20px;
+    background: linear-gradient(to right, #0f3d0f, #145214);
+}
+
+/* carrossel */
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.carousel {
+    width: 800px;
+}
+
+.carousel img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* cards */
+.card {
+    background-color: #123d12;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+/* rodapé */
+footer {
+    background-color: #111111;
+}
